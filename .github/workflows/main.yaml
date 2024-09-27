@@ -36,7 +36,7 @@ jobs:
     - name: Repository checkout
       uses: actions/checkout@v2
       with:
-        repository: bskwak/argocd-kube
+        repository: nizum486/argocd-kube
         token: ${{ secrets.MY_GITHUB_TOKEN }}
 
     - name: Add date and push
